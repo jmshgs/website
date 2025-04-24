@@ -13,8 +13,7 @@
 >
     <img 
         class="w-60 transition-all duration-1-0 {isHovered ? 'scale-105' : ''}" 
-        crossorigin="anonymous"
-        src={"/src/routes/articles/" + album.articleSlug + "/cover.webp"}
+        src={"/" + album.articleSlug + "/cover.webp"}
         alt=""
     />
     <div class="flex flex-col px-5 py-0 space-y-2 text-left">

@@ -11,6 +11,6 @@
         <slot/>
     </div>
     <div class="flex grow justify-center sticky inset-0">
-        <img class="w-96 mt-5 p-0 h-96" alt="the album cover" src={"/src/routes" + image} />
+        <img class="w-96 mt-5 p-0 h-96" alt="the album cover" src={image.substring(9)} />
     </div>
 </div>
