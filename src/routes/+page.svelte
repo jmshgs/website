@@ -54,9 +54,9 @@
                 <h1 class="text-4xl dark:text-white">hey! i'm james</h1>
             </div>
             <p class="text-xl text-gray-600 dark:text-gray-400">
-                i'm a 17 year old from california that likes to write swift and
-                listen to music! i enjoy reading about politics and writing
-                sometimes as well, which you can read below
+                i'm a 17 year old from california that likes to write swift,
+                learn about politics, and listen to music (which you can read my
+                reviews of below)
             </p>
             <div class="flex flex-row space-x-3">
                 <a
