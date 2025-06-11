@@ -6,7 +6,7 @@
 <div class="flex w-full">
     <div class="w-1/2">
         <div class="sticky top-0 bg-white dark:bg-[#1e1e1e] flex flex-col">
-            <div class="h-9"></div>
+            <div class="2xl:h-9"></div>
             <h1 class="">
                 {title}
             </h1>
@@ -14,9 +14,9 @@
         <slot />
     </div>
     <div class="w-1/2">
-        <div class="sticky top-28 flex justify-center">
+        <div class="flex justify-center">
             <img
-                class="mt-5 h-96"
+                class="fixed top-1/6 2xl:top-1/4 mt-5 h-96 2xl:h-[36rem]"
                 alt="the album cover"
                 src={"/images/" + image.substring(9)}
             />
