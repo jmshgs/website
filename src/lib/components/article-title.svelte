@@ -11,7 +11,9 @@
                 {title}
             </h1>
         </div>
-        <slot />
+        <div class="2xl:w-[80%]">
+            <slot />
+        </div>
     </div>
     <div class="w-1/2">
         <div class="flex justify-center">

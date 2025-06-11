@@ -8,7 +8,6 @@
                 "a masterful, ambitious debut album that blends psychedelic trap, southern hip-hop, and cloup rap.",
             date: "4/13/2025",
             articleSlug: "music/travisscott/rodeo",
-            music: true,
         },
         {
             title: "Review: KIDS SEE GHOSTS",
@@ -16,24 +15,14 @@
                 "a futuristic, minimalistic and retrospective album from the legendary duo",
             date: "4/23/2025",
             articleSlug: "music/kidsseeghosts/kidsseeghosts",
-            music: true,
         },
-        // {
-        //     title: "Review: Let's Start Here.",
-        //     description:
-        //         "yachty brings a new genre to his music with a psychedelic rock album",
-        //     date: "4/23/2025",
-        //     articleSlug: "music/lilyachty/letsstarthere",
-        //     music: true,
-        // },
-        // {
-        //     title: "ICE in LA",
-        //     description:
-        //         "a scary sign of what's to come under the trump administration",
-        //     date: "6/10/2025",
-        //     articleSlug: "icela",
-        //     music: false,
-        // },
+        {
+            title: "Review: Let's Start Here.",
+            description:
+                "yachty brings a new genre to his music with a psychedelic rock album",
+            date: "6/11/2025",
+            articleSlug: "music/lilyachty/letsstarthere",
+        },
     ];
     import { Mail, Github } from "lucide-svelte";
     import { ModeWatcher } from "mode-watcher";
