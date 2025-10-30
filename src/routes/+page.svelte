@@ -1,29 +1,4 @@
 <script>
-    import ReviewCard from "$lib/components/review-card.svelte";
-
-    let article = [
-        {
-            title: "Review: Rodeo",
-            description:
-                "a masterful, ambitious debut album that blends psychedelic trap, southern hip-hop, and cloup rap.",
-            date: "4/13/2025",
-            articleSlug: "music/travisscott/rodeo",
-        },
-        {
-            title: "Review: KIDS SEE GHOSTS",
-            description:
-                "a futuristic, minimalistic and retrospective album from the legendary duo",
-            date: "4/23/2025",
-            articleSlug: "music/kidsseeghosts/kidsseeghosts",
-        },
-        {
-            title: "Review: Let's Start Here.",
-            description:
-                "yachty brings a new genre to his music with a psychedelic rock album",
-            date: "6/11/2025",
-            articleSlug: "music/lilyachty/letsstarthere",
-        },
-    ];
     import { Mail, Github } from "lucide-svelte";
     import { ModeWatcher } from "mode-watcher";
 </script>
@@ -63,14 +38,6 @@
                     <Github class="stroke-gray-600 dark:stroke-gray-400" />
                 </a>
             </div>
-        </div>
-    </div>
-    <div class="flex flex-col px-20 py-15 items-start">
-        <h1 class="text-[2.5rem] font-bold font-sans py-5">latest articles</h1>
-        <div class="grid sm:grid-cols-2 sm:space-y-10">
-            {#each article.toReversed() as article}
-                <ReviewCard {article} />
-            {/each}
         </div>
     </div>
 </div>
