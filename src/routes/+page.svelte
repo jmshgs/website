@@ -7,7 +7,7 @@
 
 <div class="font-manrope flex h-screen w-screen flex-col">
     <div
-        class="flex h-[50vh] w-full flex-col items-center justify-center space-y-6 pt-20"
+        class="flex h-full w-full flex-col items-center justify-center space-y-6"
     >
         <img class="w-40 rounded-2xl" src="/images/pfps/pfp.webp" alt="" />
         <div
@@ -18,9 +18,7 @@
                 <h1 class="text-4xl dark:text-white">hey! i'm james</h1>
             </div>
             <p class="text-xl text-gray-600 dark:text-gray-400">
-                i'm a 17 year old from california that likes to write swift,
-                learn about politics, and listen to music (which you can read my
-                reviews of below)
+                i'm a 17 year old from california that likes to write swift, play video games, and learn about politics!
             </p>
             <div class="flex flex-row space-x-3">
                 <a
